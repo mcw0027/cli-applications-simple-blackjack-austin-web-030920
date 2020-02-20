@@ -37,7 +37,7 @@ def hit?(current_total)
   return current_total
   elsif 'h'
   deal_card
-  current_total += deal_card.to_i
+  return current_total += deal_card.to_i
 else
     invalid_command()
     prompt_user()
