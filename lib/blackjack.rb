@@ -23,7 +23,8 @@ def end_game (card_total)
 end
 
 def initial_round
-  # code #initial_round here
+  fart = deal_card() + deal_card()
+  puts display_card_total(fart)
 end
 
 def hit?
