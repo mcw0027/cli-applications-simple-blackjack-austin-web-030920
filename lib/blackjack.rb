@@ -32,7 +32,7 @@ end
 
 def hit?(current_total)
   prompt_user()
-  get_user_input()
+  get_user_input
   if 's'
   return current_total
   elsif 'h'
