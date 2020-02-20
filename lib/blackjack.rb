@@ -32,10 +32,10 @@ end
 
 def hit?(current_total)
   prompt_user()
-  get_user_input
-  if 's'
+  user_input = get_user_input
+  if user_input == 's'
   return current_total
-  elsif 'h'
+  elsif user_input == 'h'
   deal_card
   return current_total += deal_card.to_i
 else
