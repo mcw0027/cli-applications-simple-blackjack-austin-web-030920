@@ -27,7 +27,7 @@ end
 def initial_round
   fart = (deal_card() + deal_card())
   binding.pry
-  return display_card_total(fart)
+  display_card_total(fart)
 end
 
 def hit?
