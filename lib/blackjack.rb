@@ -36,7 +36,7 @@ def hit?(current_total)
   if 's'
   return current_total
   elsif 'h'
-  return current_total + deal_card
+  return (current_total + deal_card)
 else
     invalid_command()
     prompt_user()
