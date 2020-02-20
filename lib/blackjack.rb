@@ -35,7 +35,6 @@ def hit?(current_total)
   get_user_input()
   if 'h'
     new_total = (current_total + deal_card)
-    binding.pry
     return new_total
   elsif 's'
   return current_total
