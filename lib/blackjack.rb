@@ -28,8 +28,8 @@ def initial_round
   (deal_card() + deal_card())
 end
 
-def hit?
-  # code hit? here
+def hit?(current_total)
+  prompt_user
 end
 
 def invalid_command
