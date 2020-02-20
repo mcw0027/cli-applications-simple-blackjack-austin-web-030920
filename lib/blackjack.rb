@@ -26,7 +26,7 @@ end
 
 def initial_round
   fart = (deal_card() + deal_card())
-  display_card_total(fart)
+  display_card_total(deal_card() + deal_card())
 end
 
 def hit?
