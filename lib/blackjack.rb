@@ -1,8 +1,5 @@
-require 'pry'
-
 def welcome
   # code #welcome here
-  binding.pry
 end
 
 def deal_card
